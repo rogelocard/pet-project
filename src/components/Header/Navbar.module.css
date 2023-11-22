@@ -1,0 +1,42 @@
+/***** CONTENT TABLE ****/
+/*
+. ROOT VARIABLES
+2. NAVBAR
+*/
+
+:root {
+    --primario: #457b9d;
+    --primarioOscuro: #1d3557;
+    --secundario: #f75462;
+    --blanco: #fff;
+    --negro: #000;
+    --gris: #8d99ae;
+    --fuente: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+
+.Navbar {
+    background-color: var(--primario);
+}
+
+.logo {
+    height: 70px;
+    padding-top: 1rem;
+    margin-left: 3rem;
+}
+
+.navLink {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+  
+.navLink:hover,
+.navLink:focus {
+    color: var(--secundario); 
+    cursor: pointer;
+    transition: .5s;
+}
