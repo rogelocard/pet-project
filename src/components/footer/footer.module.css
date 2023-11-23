@@ -1,0 +1,15 @@
+:root {
+    --primario: #457b9d;
+    --primarioOscuro: #1d3557;
+    --secundario: #f75462;
+    --blanco: #fff;
+    --negro: #000;
+    --gris: #8d99ae;
+    --fuente: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: var(--primarioOscuro);
+    color: var(--blanco);
+    height: fit-content;
+}

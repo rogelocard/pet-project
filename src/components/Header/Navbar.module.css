@@ -18,6 +18,8 @@
 
 .Navbar {
     background-color: var(--primario);
+    font-size: 16px;
+    font-family: var(--fuente);
 }
 
 .logo {
