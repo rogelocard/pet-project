@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-import style from '../style/nosotros.module.css'
+import style from '../style/contactanos.module.css'
 import correo from '../assets/img/correo.png'
 import facebook from '../assets/img/facebook.png'
 import whatsapp from '../assets/img/whatsapp.png'
